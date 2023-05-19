@@ -40,11 +40,11 @@ $(document).ready(function(){
 </script>
 
 
-<div id="leftNav">
+<div class="overlay" id="leftNav">
 	
 	<ul>
-		<li><a href="">Book a Trip</a></li>
-		<li><a href="">IT System</a></li>
+		<li><a href="index.php">Book a Trip</a></li>
+		<li><a href="it-support.php">IT System</a></li>
 	</ul>
 
 </div>

@@ -149,3 +149,114 @@ html, body, h1, h2, h3, h4, h5, h6 {
     width: fit-content;
     margin: auto;
   }
+
+
+  /* implement the shadow */
+header{
+    background-color: rgb(76, 76, 179);
+    height: 80px;
+    box-shadow: 0 1.9rem 1.9rem rgba(83, 78, 78, 0.5);
+    
+}
+
+
+
+  /* main picture insert as background */
+.main-picture {
+    background-image: url('https://raw.githubusercontent.com/Zulinov/skillsProjects/main/canoe.jpg');
+    background-size: cover; /* adjusts the size of the image to cover the entire div */
+    background-position: center; /* centers the image within the div */
+  
+    height: 400px;
+    margin-left: 40px;
+    margin-right: 40px;
+    position: relative;
+
+  }
+.main-picture-text1{
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+}
+.main-picture-text2{
+    text-align: center;
+    color: white;
+}
+
+.adventures{
+    margin-left: 60px;
+}
+
+.trip{
+    width: 700px;
+}
+
+.specif{
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+section h1{
+    font-size: 80px;
+    margin-top: 10px;
+    margin-left: 15px;
+    border-bottom: 1px solid rgb(184, 192, 184);
+    max-width: 850px;
+}
+section div h2{
+    color:green;
+    margin-top: 15px;
+    text-decoration: underline  ;
+}
+
+section div h3{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: 150;
+}
+
+section div p{
+    margin-bottom: 10px;
+    line-height: 1.3;
+}
+
+
+/* Apply styles for screens narrower than 800px */
+@media (max-width: 800px) {
+
+    main {
+        font-size: 10px;
+      }
+
+
+    section h1{
+        font-size: 50px;
+        margin-top: 10px;
+        margin-left: 15px;
+        
+    }
+
+    section div h2{
+       
+        margin-top: 10px;
+        
+    }
+    .specif{
+        font-size: 10px;
+        margin-top: 15px;
+    }
+    
+    section div h3{
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-size: 10px;
+        font-weight: 100;
+    }
+  }
+
+
+  .overlay {
+    z-index: 9999; /* Define a ordem de sobreposição, quanto maior o valor, mais acima o elemento ficará */
+  }
+
