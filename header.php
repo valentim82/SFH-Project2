@@ -12,7 +12,7 @@ session_start();
 	<title></title>
 
 
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
 
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
 
@@ -45,6 +45,9 @@ $(document).ready(function(){
 	<ul>
 		<li><a href="index.php">Book a Trip</a></li>
 		<li><a href="it-support.php">IT System</a></li>
+		<li><a href="admin-add.php">New Adventure</a></li>
+
+		
 	</ul>
 
 </div>
