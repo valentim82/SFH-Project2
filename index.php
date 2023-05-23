@@ -43,6 +43,8 @@ include 'src/dbconnect.php';
                 <p>Foodies will enjoy the dining options in Sydney, with many seafood restaurants serving fresh, locally sourced seafood. Some recommended restaurants include Governor's Pub & Eatery, which offers pub fare and live music, and the Flavor Downtown, which features a menu of locally sourced ingredients and craft cocktails. For those seeking a more upscale experience, The Black Spoon Bistro and The Old Triangle Irish Alehouse both offer high-end dining experiences.</p>
                 <p>In addition to historical sites and restaurants, Sydney also has a number of museums worth visiting. The Cape Breton Centre for Heritage & Science offers exhibits on local history, science, and technology, while the Jost House Museum showcases the architecture and lifestyle of early 19th-century Cape Breton. Finally, the Joan Harriss Cruise Pavilion is a hub for entertainment and cultural events and offers stunning views of the harbor. With so much to see and do, a 4-day trip to Sydney is sure to be an enjoyable and memorable experience.</p>
             </div>
+
+        
             <?php
             $sql = "SELECT * FROM tripdb";
             $result = mysqli_query($conn, $sql);
