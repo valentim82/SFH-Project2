@@ -1,9 +1,7 @@
 <?php
 include 'header.php';
 ?>
-<?php
-include 'dbconnect.php';
-?>
+
 
 
 <main>
@@ -12,7 +10,7 @@ include 'dbconnect.php';
         <section class="adventures">
             <h1>Admin - Add Adventure</h1>
             
-            <form action="admin-confirm.php" method="POST">
+            <form action="admin-write.php" method="POST">
             <div class="form-add">
                 <p>Input details about the trip</p>
             </div>

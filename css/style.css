@@ -182,7 +182,7 @@ header{
 }
 .main-picture-text2{
     text-align: center;
-    color: white;
+    color: navy;
 }
 
 .adventures{
@@ -237,7 +237,7 @@ section div p{
 	margin-right: 10px;
 }
 .form-add p{
-	width: 200px;
+	width: 250px;
 	text-align: right;
 	margin-right: 40px;
 	padding-left: 40px;

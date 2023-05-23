@@ -1,9 +1,9 @@
 <?php
-include 'header.php';
+include 'src/header-index.php';
 ?>
 
 <?php
-include 'dbconnect.php';
+include 'src/dbconnect.php';
 ?>
 
 
